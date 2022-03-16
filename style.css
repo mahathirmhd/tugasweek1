@@ -1,0 +1,208 @@
+body{
+    margin: 0 auto;
+    font-family: monospace;
+    width: 100%;
+}
+header{
+    height: 80px;
+    background-color: rgb(68, 93, 116);
+    border-bottom: 1px solid rgb(199, 194, 194);
+    color: white;
+    top: 0;
+    z-index: 10;
+}
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}       
+.logo{
+    font-size: 15px;
+    padding: 3px 20px;
+    float: left;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+
+  .message {
+    padding: 10px 35px;
+    background-color: hsl(133, 94%, 55%);
+    cursor: pointer;
+    box-shadow: 0 7px #12a74d;
+    
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+
+.menu{
+    float: right;            
+    padding: 20px 20px;
+    font-size: 16px;
+}
+.menu a {
+    line-height: 40px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+    text-decoration: none;
+}
+.menu a:hover {
+    background-color: rgb(145, 145, 241);
+}
+.top-lesson{
+    margin-top: 100px;
+    font-family: 'lucinda grande';
+}
+.left{
+    float: left;
+    margin-top: 50px;
+    
+}
+.left h1{
+    font-size: 45px;
+    line-height: 20px;
+    letter-spacing: 6px;
+    
+}
+.left h2{
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 3px;
+}
+.left p{
+    font-size: 20px ;
+}
+.right{
+    float: right;
+    background-color: red;
+}
+
+.right img{
+    width: 480px;
+    height: 400px;
+}
+main .container{
+    height: 450px;
+    
+}
+main .container2{
+    height: 450px;
+    width: 100%;
+    background-color: rgb(222, 222, 247);
+    
+}
+
+.bot-lesson h2{
+    text-align: center;
+    text-decoration: none;
+    padding: 50px 0px;
+    
+
+}
+
+.menu-item{
+    float:left;
+    margin: 0px 93px;
+    height: 150px;
+    width: 150px;
+    border-bottom: 1px solid rgb(199, 194, 194);
+    
+  }
+.menu-item p{
+    font-size:24px;
+    text-align: center;
+    font-family: 'lucinda grande';
+ }
+
+.menu-item img{
+      height: 150px;
+      width: 150px;
+      
+  }
+
+  footer {
+    color: white;
+    height: 110px;
+    margin-top: 60px;
+    background-color: rgb(68, 93, 116);
+  }
+.footer-center{
+    padding-top: 10px;
+    text-align: center;
+}
+.footer-center p{
+    line-height: 0px;
+}
+
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+  }
+  * {
+    box-sizing: border-box;
+  }
+/* style responsive-----------------*/
+
+@media all and (max-width: 1000px){
+
+    .top-lesson h1 {
+        font-size: 40px;
+    }
+    .top-lesson h2 {
+        font-size: 25px;
+    }
+
+    .menu-item{
+        width: 50%;
+        margin-bottom: 50px;
+      }
+}
+
+
+@media all and (max-width: 670px){
+
+    .top-lesson h1 {
+        font-size: 30px;
+    }
+    .top-lesson h2 {
+        font-size: 20px;
+    }
+    .top-lesson p {
+        font-size: 15px;
+    }
+
+    .menu-item{
+        width: 100%;
+        margin-bottom: 50px;
+      }
+
+      .menu {
+        display: none;
+      }
+      
+      .menu-icon {
+        display: block;
+      }
+}
+
+
+
